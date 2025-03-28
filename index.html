@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone - Home</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="bg-gray-100 font-roboto">
+    <!-- Header -->
+    <header class="bg-[#131921] text-white ">
+      <div class="container mx-auto px-1 py-1 flex items-center -mt-8">
+      <h1 class="text-white -mt-8 -pt-8" style="color:white;">Amazon</h1>
+        <div class="ml-10 flex-1">
+          <div class="flex">
+            <input
+              type="text"
+              class="w-full px-4 py-2 rounded-l-md w-80"
+              placeholder="Search..."
+              id="Search2"
+            />
+          </div>
+        </div>
+        <nav class="ml-10">
+          <ul class="flex space-x-6" id="navbar">
+            <li>
+              <a href="/" class="hover:underline">
+                <i class="fas fa-home"></i> Home
+              </a>
+            </li>
+            <li>
+              <a href="/cart.html" class="hover:underline">
+                <i class="fas fa-shopping-cart"></i> Cart
+              </a>
+            </li>
+            <li>
+              <a href="/buy.html" class="hover:underline">
+                <i class="fas fa-credit-card"></i> Buy
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+      <div id="notification-container"></div>
+      <section class="mb-10">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h2 class="text-2xl font-bold mb-4">Featured Products</h2>
+          <div
+            id="products-container"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
+            <!-- Products will be loaded dynamically from JSON -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#232F3E] text-white py-8">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="font-bold mb-4">Get to Know Us</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="/about.html" class="hover:underline">About Us</a>
+              </li>
+              <li>
+                <a href="/contact.html" class="hover:underline">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Make Money with Us</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Sell products</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Payment</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">UPI</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Legal</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="/policy.html" class="hover:underline"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-600 text-center">
+          <p>&copy; 2023 Amazon Clone. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

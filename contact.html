@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Amazon Clone</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header (same as index.html) -->
+    <header class="bg-[#131921] text-white">
+      <div class="container mx-auto px-4 py-3 flex items-center">
+<h1 class="text-white" style="color:white;">Amazon</h1>
+        <nav class="ml-auto">
+          <ul class="flex space-x-6">
+            <li>
+              <a href="/" class="hover:underline"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="/about.html" class="hover:underline"
+                ><i class="fas fa-info-circle"></i> About</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h1 class="text-2xl font-bold mb-6">Contact Us</h1>
+
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="space-y-4"
+          >
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY" />
+            <input
+              type="hidden"
+              name="subject"
+              value="Contact Form Submission"
+            />
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://web3forms.com/success"
+            />
+
+            <div>
+              <label for="name" class="block mb-1">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="form-control w-full"
+              />
+            </div>
+
+            <div>
+              <label for="email" class="block mb-1">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="form-control w-full"
+              />
+            </div>
+
+            <div>
+              <label for="message" class="block mb-1">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                class="form-control w-full"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary w-full py-3 rounded-lg">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h2 class="text-xl font-bold mb-4">Our Information</h2>
+          <div class="space-y-4">
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-map-marker-alt mr-2"></i> Address
+              </h3>
+              <p class="text-gray-600 mt-1">
+                123 Amazon Street, E-Commerce City, 400001
+              </p>
+            </div>
+
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-phone-alt mr-2"></i> Phone
+              </h3>
+              <p class="text-gray-600 mt-1">+91 1234567890</p>
+            </div>
+
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-envelope mr-2"></i> Email
+              </h3>
+              <p class="text-gray-600 mt-1">contact@amazonclone.example</p>
+            </div>
+
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-clock mr-2"></i> Business Hours
+              </h3>
+              <p class="text-gray-600 mt-1">Monday - Friday: 9AM - 6PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-[#232F3E] text-white py-8">
+      <div class="container mx-auto px-4">
+        <!-- Footer content same as index.html -->
+      </div>
+    </footer>
+  </body>
+</html>

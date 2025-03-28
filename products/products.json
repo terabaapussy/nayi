@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Apple AirPods Pro",
+    "price": 249,
+    "image": "https://m.media-amazon.com/images/I/71zny7BTRlL._AC_SL1500_.jpg",
+    "description": "Wireless noise-cancelling earbuds with immersive sound and a customizable fit.",
+    "amazonLink": "https://www.amazon.com/dp/B07ZPC9QD4"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 799,
+    "image": "https://m.media-amazon.com/images/I/91w7nkDZ73L._AC_SL1500_.jpg",
+    "description": "The latest flagship smartphone offering top-tier performance and a stunning display.",
+    "amazonLink": "https://www.amazon.com/dp/B0B9XYZ123"
+  },
+  {
+    "name": "Sony 65\" 4K Ultra HD TV",
+    "price": 999,
+    "image": "https://m.media-amazon.com/images/I/91u%2B0dZLMOL._AC_SL1500_.jpg",
+    "description": "Experience stunning clarity and vibrant colors with this state-of-the-art 4K television.",
+    "amazonLink": "https://www.amazon.com/dp/B09F7S3ST2"
+  },
+  {
+    "name": "Instant Pot Duo 7-in-1",
+    "price": 89,
+    "image": "https://m.media-amazon.com/images/I/81nJ3Zx9hIL._AC_SL1500_.jpg",
+    "description": "A versatile multi-cooker that combines 7 kitchen appliances in one for convenient meal prep.",
+    "amazonLink": "https://www.amazon.com/dp/B08PQ2KWHS"
+  },
+  {
+    "name": "Dyson V11 Torque Drive Cordless Vacuum",
+    "price": 699,
+    "image": "https://m.media-amazon.com/images/I/71niXI3lxlL._AC_SL1500_.jpg",
+    "description": "High-power cordless vacuum with advanced filtration and dynamic load sensor technology.",
+    "amazonLink": "https://www.amazon.com/dp/B07N7JWLLR"
+  },
+  {
+    "name": "Kindle Paperwhite",
+    "price": 139,
+    "image": "https://m.media-amazon.com/images/I/61E8pSuE2PL._AC_SL1000_.jpg",
+    "description": "Waterproof e-reader with a high-resolution display and adjustable warm light.",
+    "amazonLink": "https://www.amazon.com/dp/B07CXG6C9W"
+  },
+  {
+    "name": "Echo Dot (4th Gen)",
+    "price": 49,
+    "image": "https://m.media-amazon.com/images/I/71JB6hM6ZCL._AC_SL1000_.jpg",
+    "description": "Compact smart speaker with Alexa—perfect for any room in your home.",
+    "amazonLink": "https://www.amazon.com/dp/B07XJ8C8F5"
+  },
+  {
+    "name": "Fitbit Versa 3",
+    "price": 229,
+    "image": "https://m.media-amazon.com/images/I/71smqRr0n-L._AC_SL1500_.jpg",
+    "description": "Advanced smartwatch with built-in GPS, heart rate monitoring, and fitness tracking.",
+    "amazonLink": "https://www.amazon.com/dp/B08DFLG5SP"
+  },
+  {
+    "name": "Bose QuietComfort 35 II",
+    "price": 299,
+    "image": "https://m.media-amazon.com/images/I/81+jNVOUsJL._AC_SL1500_.jpg",
+    "description": "Wireless noise-cancelling headphones that deliver excellent sound and comfort.",
+    "amazonLink": "https://www.amazon.com/dp/B0756CYWWD"
+  },
+  {
+    "name": "LG 34-inch UltraWide Monitor",
+    "price": 449,
+    "image": "https://m.media-amazon.com/images/I/81aLUn5K3BL._AC_SL1500_.jpg",
+    "description": "Expand your view with an ultra-wide monitor ideal for multitasking and immersive experiences.",
+    "amazonLink": "https://www.amazon.com/dp/B0874XL9ZV"
+  },
+  {
+    "name": "ASUS ROG Zephyrus Gaming Laptop",
+    "price": 1499,
+    "image": "https://m.media-amazon.com/images/I/81QpkIctqPL._AC_SL1500_.jpg",
+    "description": "Powerful gaming laptop featuring high-end graphics and fast processing speeds.",
+    "amazonLink": "https://www.amazon.com/dp/B09K35XYZ12"
+  },
+  {
+    "name": "Nikon D3500 DSLR Camera",
+    "price": 499,
+    "image": "https://m.media-amazon.com/images/I/71K9CbNZPsL._AC_SL1500_.jpg",
+    "description": "Entry-level DSLR with intuitive controls and excellent image quality for photography beginners.",
+    "amazonLink": "https://www.amazon.com/dp/B07GWKDLGT"
+  },
+  {
+    "name": "GoPro HERO10 Black",
+    "price": 399,
+    "image": "https://m.media-amazon.com/images/I/71c8xT0eBdL._AC_SL1500_.jpg",
+    "description": "Rugged and waterproof action camera that captures stunning video and photos in any environment.",
+    "amazonLink": "https://www.amazon.com/dp/B09GZXDC4X"
+  },
+  {
+    "name": "Anker PowerCore Portable Charger",
+    "price": 39,
+    "image": "https://m.media-amazon.com/images/I/61LtuGzXeaL._AC_SL1500_.jpg",
+    "description": "High-capacity portable charger that keeps your devices powered on the go.",
+    "amazonLink": "https://www.amazon.com/dp/B07S829LBX"
+  },
+  {
+    "name": "Razer DeathAdder Gaming Mouse",
+    "price": 49,
+    "image": "https://m.media-amazon.com/images/I/61Z+ShbnVAL._AC_SL1500_.jpg",
+    "description": "Ergonomic gaming mouse with precise tracking and customizable buttons for competitive play.",
+    "amazonLink": "https://www.amazon.com/dp/B07D7PM6B9"
+  },
+  {
+    "name": "Philips Hue White and Color Ambiance Starter Kit",
+    "price": 179,
+    "image": "https://m.media-amazon.com/images/I/61JfLX0MZrL._AC_SL1500_.jpg",
+    "description": "Smart lighting system that lets you control ambiance with millions of colors and voice commands.",
+    "amazonLink": "https://www.amazon.com/dp/B076MGKTGS"
+  },
+  {
+    "name": "Shark Navigator Lift-Away NV360",
+    "price": 199,
+    "image": "https://m.media-amazon.com/images/I/71k0cgE7LAL._AC_SL1500_.jpg",
+    "description": "Versatile upright vacuum with Lift-Away functionality for deep cleaning hard-to-reach areas.",
+    "amazonLink": "https://www.amazon.com/dp/B005KMDV9A"
+  },
+  {
+    "name": "Ninja Professional 72 Oz Blender",
+    "price": 99,
+    "image": "https://m.media-amazon.com/images/I/81tI1tgeXLL._AC_SL1500_.jpg",
+    "description": "High-powered blender perfect for smoothies, ice crushing, and food processing.",
+    "amazonLink": "https://www.amazon.com/dp/B0858W8CT8"
+  },
+  {
+    "name": "Weber Spirit II E-310 Gas Grill",
+    "price": 699,
+    "image": "https://m.media-amazon.com/images/I/91QwcbJ6NeL._AC_SL1500_.jpg",
+    "description": "Reliable gas grill with ample cooking space and even heat distribution for outdoor cooking.",
+    "amazonLink": "https://www.amazon.com/dp/B07KFLVZB8"
+  },
+  {
+    "name": "iRobot Roomba 692 Robot Vacuum",
+    "price": 249,
+    "image": "https://m.media-amazon.com/images/I/81ecCEG1D-L._AC_SL1500_.jpg",
+    "description": "Smart robot vacuum that adapts to your home’s layout and keeps your floors spotless.",
+    "amazonLink": "https://www.amazon.com/dp/B07DL4QY5T"
+  },
+  {
+    "name": "OXO Good Grips 3-in-1 Avocado Slicer",
+    "price": 12,
+    "image": "https://m.media-amazon.com/images/I/81exm5Ij%2BCL._AC_SL1500_.jpg",
+    "description": "Handy kitchen tool for slicing, pitting, and scooping avocados with ease.",
+    "amazonLink": "https://www.amazon.com/dp/B00GJD7CCK"
+  },
+  {
+    "name": "ThermoPro Instant Read Meat Thermometer",
+    "price": 25,
+    "image": "https://m.media-amazon.com/images/I/61R7aBr1UHL._AC_SL1500_.jpg",
+    "description": "Fast and accurate meat thermometer perfect for grilling and cooking.",
+    "amazonLink": "https://www.amazon.com/dp/B01IHHLB3W"
+  },
+  {
+    "name": "Samsung Galaxy Tab S8",
+    "price": 649,
+    "image": "https://m.media-amazon.com/images/I/71o1NS%2B7MQL._AC_SL1500_.jpg",
+    "description": "High-performance tablet with a brilliant display and versatile productivity features.",
+    "amazonLink": "https://www.amazon.com/dp/B09G9F9NQR"
+  },
+  {
+    "name": "HP OfficeJet Pro 9015 All-in-One Printer",
+    "price": 229,
+    "image": "https://m.media-amazon.com/images/I/71KilybDOoL._AC_SL1500_.jpg",
+    "description": "Fast, reliable printer ideal for home offices with scanning, copying, and faxing capabilities.",
+    "amazonLink": "https://www.amazon.com/dp/B086KSR9ZK"
+  },
+  {
+    "name": "Logitech MX Master 3 Wireless Mouse",
+    "price": 99,
+    "image": "https://m.media-amazon.com/images/I/71Lz1Q6SlyL._AC_SL1500_.jpg",
+    "description": "Ergonomic wireless mouse featuring customizable buttons and advanced tracking.",
+    "amazonLink": "https://www.amazon.com/dp/B07S395RWD"
+  }
+]
