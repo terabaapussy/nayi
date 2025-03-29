@@ -2,176 +2,176 @@
   {
     "name": "Apple AirPods Pro",
     "price": 249,
-    "image": "https://m.media-amazon.com/images/I/71zny7BTRlL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.134VJ44OStJo8DrF8-JnyAHaHa%26pid%3DApi&f=1&ipt=8bf2da9c644d9e6aefc8fdf41c1f871c8eafb43fc9144782548cda8c6cf2d7ac&ipo=images",
     "description": "Wireless noise-cancelling earbuds with immersive sound and a customizable fit.",
-    "amazonLink": "https://www.amazon.com/dp/B07ZPC9QD4"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07ZPC9QD4"
   },
   {
     "name": "Samsung Galaxy S23",
     "price": 799,
-    "image": "https://m.media-amazon.com/images/I/91w7nkDZ73L._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.DuVDSuaaqP7BWC2YDuJC3wHaFj%26pid%3DApi&f=1&ipt=7993dedf78eba913dc67626b7839e62d048263c516b5c78912982284b02b6a0e&ipo=images",
     "description": "The latest flagship smartphone offering top-tier performance and a stunning display.",
-    "amazonLink": "https://www.amazon.com/dp/B0B9XYZ123"
+    "ZamazLink": "https://www.Zamaz.com/dp/B0B9XYZ123"
   },
   {
     "name": "Sony 65\" 4K Ultra HD TV",
     "price": 999,
-    "image": "https://m.media-amazon.com/images/I/91u%2B0dZLMOL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.XEAToIsK0jsmcivjMHksgAHaE8%26pid%3DApi&f=1&ipt=5aefdac42d7f496fd12cb1554f621c6c50713dfd6c1129c2229b6601ad65750e&ipo=images",
     "description": "Experience stunning clarity and vibrant colors with this state-of-the-art 4K television.",
-    "amazonLink": "https://www.amazon.com/dp/B09F7S3ST2"
+    "ZamazLink": "https://www.Zamaz.com/dp/B09F7S3ST2"
   },
   {
     "name": "Instant Pot Duo 7-in-1",
     "price": 89,
-    "image": "https://m.media-amazon.com/images/I/81nJ3Zx9hIL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.heb.com%2Fis%2Fimage%2FHEBGrocery%2F002144569&f=1&nofb=1&ipt=9e62c3c41d26780c41cc6624c054dd07a36d5f23ef2d5ecbd21bec53953d11bb&ipo=images",
     "description": "A versatile multi-cooker that combines 7 kitchen appliances in one for convenient meal prep.",
-    "amazonLink": "https://www.amazon.com/dp/B08PQ2KWHS"
+    "ZamazLink": "https://www.Zamaz.com/dp/B08PQ2KWHS"
   },
   {
     "name": "Dyson V11 Torque Drive Cordless Vacuum",
     "price": 699,
-    "image": "https://m.media-amazon.com/images/I/71niXI3lxlL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.homedepot-static.com%2FproductImages%2Fdbc4343a-7f26-432e-abff-a0ef09e78d1b%2Fsvn%2Fdyson-stick-vacuums-268731-01-64_1000.jpg&f=1&nofb=1&ipt=88ef684596455bcac340bf648372a4bc2c8e107108a276bb0ed286fc22c0fbeb&ipo=images",
     "description": "High-power cordless vacuum with advanced filtration and dynamic load sensor technology.",
-    "amazonLink": "https://www.amazon.com/dp/B07N7JWLLR"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07N7JWLLR"
   },
   {
     "name": "Kindle Paperwhite",
     "price": 139,
-    "image": "https://m.media-amazon.com/images/I/61E8pSuE2PL._AC_SL1000_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.YgTuiZhA5Zfyq_m8yQR2lgHaGy%26pid%3DApi&f=1&ipt=dac9948f9057cff7eacf6c77d7856160ffb8d6510a3a2d8221af98e3c9241d57&ipo=images",
     "description": "Waterproof e-reader with a high-resolution display and adjustable warm light.",
-    "amazonLink": "https://www.amazon.com/dp/B07CXG6C9W"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07CXG6C9W"
   },
   {
     "name": "Echo Dot (4th Gen)",
     "price": 49,
-    "image": "https://m.media-amazon.com/images/I/71JB6hM6ZCL._AC_SL1000_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.PspEU6xaT4Bxtq4wUrDn1wHaHa%26pid%3DApi&f=1&ipt=c8090b31cf4d6c0b412995014f649fd29f98f808be6b654572b2aac36b8d7396&ipo=images",
     "description": "Compact smart speaker with Alexa—perfect for any room in your home.",
-    "amazonLink": "https://www.amazon.com/dp/B07XJ8C8F5"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07XJ8C8F5"
   },
   {
     "name": "Fitbit Versa 3",
     "price": 229,
-    "image": "https://m.media-amazon.com/images/I/71smqRr0n-L._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.JlBxbTgcavIfKxJ-bN0x4wHaHx%26pid%3DApi&f=1&ipt=a0530f28b0a0033d9c85f54b3731ac3dca43ed4d79ace74a8900cc767587ae48&ipo=images",
     "description": "Advanced smartwatch with built-in GPS, heart rate monitoring, and fitness tracking.",
-    "amazonLink": "https://www.amazon.com/dp/B08DFLG5SP"
+    "ZamazLink": "https://www.Zamaz.com/dp/B08DFLG5SP"
   },
   {
     "name": "Bose QuietComfort 35 II",
     "price": 299,
-    "image": "https://m.media-amazon.com/images/I/81+jNVOUsJL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.9rWk1_9KmQkIBf5axqXa1wHaHa%26pid%3DApi&f=1&ipt=0abc4e35b919a8347458136d22a9d8ba17ec2f6ebf53f9bdb03f384d2044c7d0&ipo=images",
     "description": "Wireless noise-cancelling headphones that deliver excellent sound and comfort.",
-    "amazonLink": "https://www.amazon.com/dp/B0756CYWWD"
+    "ZamazLink": "https://www.Zamaz.com/dp/B0756CYWWD"
   },
   {
     "name": "LG 34-inch UltraWide Monitor",
     "price": 449,
-    "image": "https://m.media-amazon.com/images/I/81aLUn5K3BL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.i0zEXLOtAonfZUjSp0eiogHaE6%26pid%3DApi&f=1&ipt=543b7da4960b9672b013fdeebe495b5f10c57b9299cac40f5eeaf50489daea80&ipo=images",
     "description": "Expand your view with an ultra-wide monitor ideal for multitasking and immersive experiences.",
-    "amazonLink": "https://www.amazon.com/dp/B0874XL9ZV"
+    "ZamazLink": "https://www.Zamaz.com/dp/B0874XL9ZV"
   },
   {
     "name": "ASUS ROG Zephyrus Gaming Laptop",
     "price": 1499,
-    "image": "https://m.media-amazon.com/images/I/81QpkIctqPL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.fAkKnxHS1v_kWiWHs8emqgHaE1%26pid%3DApi&f=1&ipt=48b6d7949a0201085a7a7a52fa8165011d22531e0c762fb02dc39197a0cd041e&ipo=images",
     "description": "Powerful gaming laptop featuring high-end graphics and fast processing speeds.",
-    "amazonLink": "https://www.amazon.com/dp/B09K35XYZ12"
+    "ZamazLink": "https://www.Zamaz.com/dp/B09K35XYZ12"
   },
   {
     "name": "Nikon D3500 DSLR Camera",
     "price": 499,
-    "image": "https://m.media-amazon.com/images/I/71K9CbNZPsL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.CYyUZ9iZjK1CRk42jHG6agHaHM%26pid%3DApi&f=1&ipt=0e776a9ec78e8ec33e0d8f68e5ee6451c559a60d68f9f8a46c76bc7c559d86e2&ipo=images",
     "description": "Entry-level DSLR with intuitive controls and excellent image quality for photography beginners.",
-    "amazonLink": "https://www.amazon.com/dp/B07GWKDLGT"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07GWKDLGT"
   },
   {
     "name": "GoPro HERO10 Black",
     "price": 399,
-    "image": "https://m.media-amazon.com/images/I/71c8xT0eBdL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nBVxEOByDaIbMre3hOL9EgHaF6%26pid%3DApi&f=1&ipt=bfa4161f4db611c8e672474c57fd07a46799db2e44f1bc9ab0268783f45af3e4&ipo=images",
     "description": "Rugged and waterproof action camera that captures stunning video and photos in any environment.",
-    "amazonLink": "https://www.amazon.com/dp/B09GZXDC4X"
+    "ZamazLink": "https://www.Zamaz.com/dp/B09GZXDC4X"
   },
   {
     "name": "Anker PowerCore Portable Charger",
     "price": 39,
-    "image": "https://m.media-amazon.com/images/I/61LtuGzXeaL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F5c8126b9-82aa-45b7-a2e0-39dbdb8000f4.9d6f01125d695af05d9e1b851af5da98.jpeg&f=1&nofb=1&ipt=c9c1fddcfc46d222866ba1f44a6087704ce291e19561c530ecef1e65b0e834ca&ipo=images",
     "description": "High-capacity portable charger that keeps your devices powered on the go.",
-    "amazonLink": "https://www.amazon.com/dp/B07S829LBX"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07S829LBX"
   },
   {
     "name": "Razer DeathAdder Gaming Mouse",
     "price": 49,
-    "image": "https://m.media-amazon.com/images/I/61Z+ShbnVAL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.-Y9rmN-rekAmfVqTkq2BUwHaEr%26pid%3DApi&f=1&ipt=390cabc44786bbad95b835b185bac2dee2bde9c6cb871c14528932f1ab6a4ef8&ipo=images",
     "description": "Ergonomic gaming mouse with precise tracking and customizable buttons for competitive play.",
-    "amazonLink": "https://www.amazon.com/dp/B07D7PM6B9"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07D7PM6B9"
   },
   {
     "name": "Philips Hue White and Color Ambiance Starter Kit",
     "price": 179,
-    "image": "https://m.media-amazon.com/images/I/61JfLX0MZrL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Rc2Tso72RcO0gSZi7Io5NwHaHa%26pid%3DApi&f=1&ipt=9405a7b370f7d0644218996bf8a851b6bc54c455f035d276e6b6262b8ac4d975&ipo=images",
     "description": "Smart lighting system that lets you control ambiance with millions of colors and voice commands.",
-    "amazonLink": "https://www.amazon.com/dp/B076MGKTGS"
+    "ZamazLink": "https://www.Zamaz.com/dp/B076MGKTGS"
   },
   {
     "name": "Shark Navigator Lift-Away NV360",
     "price": 199,
-    "image": "https://m.media-amazon.com/images/I/71k0cgE7LAL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.pyQyWSjg5BLYuVol13OuzgHaHa%26pid%3DApi&f=1&ipt=87c8da51bccef6e0673148abf84782149cf7fb5af97499cc966bbb58107d1983&ipo=images",
     "description": "Versatile upright vacuum with Lift-Away functionality for deep cleaning hard-to-reach areas.",
-    "amazonLink": "https://www.amazon.com/dp/B005KMDV9A"
+    "ZamazLink": "https://www.Zamaz.com/dp/B005KMDV9A"
   },
   {
     "name": "Ninja Professional 72 Oz Blender",
     "price": 99,
-    "image": "https://m.media-amazon.com/images/I/81tI1tgeXLL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Sj10GlOIo_cUW9h9Ai6gNgHaOF%26pid%3DApi&f=1&ipt=d810a26cf535143b6df82dec623c91fce77fa9e82e77ea2f8223b91a82ad8023&ipo=images",
     "description": "High-powered blender perfect for smoothies, ice crushing, and food processing.",
-    "amazonLink": "https://www.amazon.com/dp/B0858W8CT8"
+    "ZamazLink": "https://www.Zamaz.com/dp/B0858W8CT8"
   },
   {
     "name": "Weber Spirit II E-310 Gas Grill",
     "price": 699,
-    "image": "https://m.media-amazon.com/images/I/91QwcbJ6NeL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.v9herusIqITXyXSLVtynjgHaG3%26pid%3DApi&f=1&ipt=b42dc1fefbc8beb659b5f2b2227dfb0497cf708e4649bb6da8815e8e6d7fddde&ipo=images",
     "description": "Reliable gas grill with ample cooking space and even heat distribution for outdoor cooking.",
-    "amazonLink": "https://www.amazon.com/dp/B07KFLVZB8"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07KFLVZB8"
   },
   {
     "name": "iRobot Roomba 692 Robot Vacuum",
     "price": 249,
-    "image": "https://m.media-amazon.com/images/I/81ecCEG1D-L._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5ftb7NU9lljnZWgFVHYk_AHaE8%26pid%3DApi&f=1&ipt=4b6084318a7c296f244fa7e5a5f1ef2c25e3fdb6db8e408778c80f7f294c2936&ipo=images",
     "description": "Smart robot vacuum that adapts to your home’s layout and keeps your floors spotless.",
-    "amazonLink": "https://www.amazon.com/dp/B07DL4QY5T"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07DL4QY5T"
   },
   {
     "name": "OXO Good Grips 3-in-1 Avocado Slicer",
     "price": 12,
-    "image": "https://m.media-amazon.com/images/I/81exm5Ij%2BCL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.OCtjmLMVUBt2_W5gTn1QYAAAAA%26pid%3DApi&f=1&ipt=c65f1993f1687c9de8dee30d6d0d920bd6ba1c30a2122c240aba51ad3d7c3152&ipo=images",
     "description": "Handy kitchen tool for slicing, pitting, and scooping avocados with ease.",
-    "amazonLink": "https://www.amazon.com/dp/B00GJD7CCK"
+    "ZamazLink": "https://www.Zamaz.com/dp/B00GJD7CCK"
   },
   {
     "name": "ThermoPro Instant Read Meat Thermometer",
     "price": 25,
-    "image": "https://m.media-amazon.com/images/I/61R7aBr1UHL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.jYJTUqX9oDJu21rp8Vl2HAHaHa%26pid%3DApi&f=1&ipt=e139e52c4ce889cff56b9cd905bcda1a3231ed942a365cf16121f49ab4be6ce4&ipo=images",
     "description": "Fast and accurate meat thermometer perfect for grilling and cooking.",
-    "amazonLink": "https://www.amazon.com/dp/B01IHHLB3W"
+    "ZamazLink": "https://www.Zamaz.com/dp/B01IHHLB3W"
   },
   {
     "name": "Samsung Galaxy Tab S8",
     "price": 649,
-    "image": "https://m.media-amazon.com/images/I/71o1NS%2B7MQL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Htk4pSR_GqN3htdJ_fbp7AHaE-%26pid%3DApi&f=1&ipt=9787baa1d6449b5789f9af801bda8666083fbd85cdd180e8af083ce231ca9394&ipo=images",
     "description": "High-performance tablet with a brilliant display and versatile productivity features.",
-    "amazonLink": "https://www.amazon.com/dp/B09G9F9NQR"
+    "ZamazLink": "https://www.Zamaz.com/dp/B09G9F9NQR"
   },
   {
     "name": "HP OfficeJet Pro 9015 All-in-One Printer",
     "price": 229,
-    "image": "https://m.media-amazon.com/images/I/71KilybDOoL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.uwHx8dl-OAO6TQUhpdSlmAHaGa%26pid%3DApi&f=1&ipt=8f165a17ccef34f4434533ea12b5165bef948f26013f770c8be515f936b5c2f1&ipo=images",
     "description": "Fast, reliable printer ideal for home offices with scanning, copying, and faxing capabilities.",
-    "amazonLink": "https://www.amazon.com/dp/B086KSR9ZK"
+    "ZamazLink": "https://www.Zamaz.com/dp/B086KSR9ZK"
   },
   {
     "name": "Logitech MX Master 3 Wireless Mouse",
     "price": 99,
-    "image": "https://m.media-amazon.com/images/I/71Lz1Q6SlyL._AC_SL1500_.jpg",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.MD76U77PF_6R7YuU5gS5LwHaHa%26pid%3DApi&f=1&ipt=d7a4dcae861c1d2000e256841e0e38abcd51d6f41220b0f4e1500c4adfc623d4&ipo=images",
     "description": "Ergonomic wireless mouse featuring customizable buttons and advanced tracking.",
-    "amazonLink": "https://www.amazon.com/dp/B07S395RWD"
+    "ZamazLink": "https://www.Zamaz.com/dp/B07S395RWD"
   }
 ]

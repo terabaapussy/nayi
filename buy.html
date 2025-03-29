@@ -3,20 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Checkout | Amazon Clone</title>
+    <title>Checkout | Zamaz Clone</title>
     <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="buy.css">
+    <link rel="stylesheet" href="buy.css" />
+    <style>
+      /* Item Row Container */
+      .item-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 16px;
+        background: #ffffff;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .item-row:hover {
+        transform: translateY(-2px);
+      }
+
+      /* Item Details */
+      .item-details {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .item-details h4 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 2px;
+      }
+
+      .item-details p {
+        font-size: 14px;
+        color: #666;
+      }
+
+      /* Item Total Price */
+      .item-price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #222;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 600px) {
+        .item-row {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 12px;
+        }
+
+        .item-price {
+          margin-top: 6px;
+        }
+      }
+    </style>
   </head>
   <body class="bg-gray-100">
     <!-- Header (same as index.html) -->
     <header class="bg-[#131921] text-white">
       <div class="container mx-auto px-4 py-3 flex items-center">
-<h1 class="text-white" style="color:white;">Amazon</h1>
+        <h1 class="text-white -mt-8 -pt-8" style="color:white; font-family: Boldonse, system-ui; font-weight: 400; font-style: normal; margin-top: -1vh;">Zamaz</h1>
         <nav class="ml-auto">
           <ul class="flex space-x-6">
             <li>
@@ -72,7 +128,7 @@
             <input
               type="hidden"
               name="subject"
-              value="New Order from Amazon Clone"
+              value="New Order from Zamaz Clone"
             />
             <input
               type="hidden"
@@ -187,7 +243,44 @@
     <!-- Footer (same as index.html) -->
     <footer class="bg-[#232F3E] text-white py-8">
       <div class="container mx-auto px-4">
-        <!-- Footer content same as index.html -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="font-bold mb-4">Get to Know Us</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="/about.html" class="hover:underline">About Us</a>
+              </li>
+              <li>
+                <a href="/contact.html" class="hover:underline">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Make Money with Us</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Sell products</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Payment</h3>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">UPI</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-bold mb-4">Legal</h3>
+            <ul class="space-y-2">
+              <li>
+                <a href="/policy.html" class="hover:underline"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-600 text-center">
+          <p>&copy; 2023 Zamaz Clone. All rights reserved.</p>
+        </div>
       </div>
     </footer>
 

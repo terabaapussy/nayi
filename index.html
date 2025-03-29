@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon Clone - Home</title>
+    <title>Zamaz Clone - Home</title>
     <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -17,9 +17,20 @@
   </head>
   <body class="bg-gray-100 font-roboto">
     <!-- Header -->
-    <header class="bg-[#131921] text-white ">
+    <header class="bg-[#131921] text-white">
       <div class="container mx-auto px-1 py-1 flex items-center -mt-8">
-      <h1 class="text-white -mt-8 -pt-8" style="color:white;">Amazon</h1>
+        <h1
+          class="text-white -mt-8 -pt-8"
+          style="
+            color: white;
+            font-family: Boldonse, system-ui;
+            font-weight: 400;
+            font-style: normal;
+            margin-top: -1vh;
+          "
+        >
+          Zamaz
+        </h1>
         <div class="ml-10 flex-1">
           <div class="flex">
             <input
@@ -53,10 +64,52 @@
     </header>
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
-      <div id="notification-container"></div>
+      <div id="notification-container" style="margin-top: 5vh"></div>
       <section class="mb-10">
         <div class="bg-white p-6 rounded-lg shadow">
-          <h2 class="text-2xl font-bold mb-4">Featured Products</h2>
+          <h2
+            style="
+              font-size: 2rem;
+              font-weight: 800;
+              margin-bottom: 1.5rem;
+              color: #2d3748;
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+              text-align: center;
+              background: linear-gradient(to right, #3b82f6, #9333ea);
+              -webkit-background-clip: text;
+              color: transparent;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              padding: 1rem;
+              border-radius: 0.5rem;
+              border-bottom: 4px solid #3b82f6;
+              transition: transform 0.3s ease;
+            "
+          >
+            Featured Products
+          </h2>
+          <a href="cart.html">
+            <button
+              style="
+                font-size: 1rem;
+                font-weight: 700;
+                padding: 0.8rem 1.5rem;
+                background: linear-gradient(to right, #3b82f6, #9333ea);
+                color: white;
+                border: none;
+                border-radius: 0.5rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+                transition: transform 0.3s ease;
+              "
+            >
+              Cart
+            </button>
+          </a>
+
           <div
             id="products-container"
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
@@ -106,7 +159,7 @@
           </div>
         </div>
         <div class="mt-8 pt-8 border-t border-gray-600 text-center">
-          <p>&copy; 2023 Amazon Clone. All rights reserved.</p>
+          <p>&copy; 2023 Zamaz Clone. All rights reserved.</p>
         </div>
       </div>
     </footer>
