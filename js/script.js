@@ -43,7 +43,7 @@ function showNotification(message) {
   // Remove the notification after 4 seconds
   setTimeout(() => {
     notification.remove();
-  }, 4000);
+  }, 2000);
 }
 
 // Cart functionality
@@ -97,7 +97,7 @@ function renderProducts(products) {
             <div class="p-4">
                 <img src="${product.image}" alt="${product.name}" class="product-image w-full">
             </div>
-            <div class="p-4 border-t border-gray-100">
+            <div class="p-4 border-t border-gray-100" id='${product.name}'>
                 <h3 class="font-medium text-lg mb-1">${product.name}</h3>
                 <p class="text-gray-500 text-sm mb-2">${product.description}</p>
                 <div class="flex justify-between items-center">
@@ -136,10 +136,11 @@ document.addEventListener("DOMContentLoaded", function () {
     isNavbarOpen = !isNavbarOpen;
     if (isNavbarOpen) {
       navbar.classList.add("active");
+      navbar.classList.remove("hidden");
       navbar.style.display = "flex";
     } else {
       navbar.classList.remove("active");
-      navbar.style.display = "none";
+      navbar.classList.add("hidden");
     }
   }
 
