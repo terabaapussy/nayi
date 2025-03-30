@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPI Payment</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+      .btn {
+        background-color: #4caf50;
+        color: white;
+        padding: 15px 25px;
+        font-size: 16px;
+        margin: 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>UPI Payment</h1>
+    <p>
+      Click the button below to proceed with UPI payment. This will open your bank's portal or UPI app.
+    </p>
+    <!-- UPI Payment Link -->
+    <a
+      href="upi://pay?pa=merchantid@upi&pn=Merchant%20Name&tr=TXN123456789&am=100.00&cu=INR&tn=Payment%20for%20Order"
+      class="btn"
+      >Pay with UPI</a
+    >
+    <p>
+      If the link doesn't open automatically, please copy the UPI details and open your bank's app manually.
+    </p>
+  </body>
+</html>
