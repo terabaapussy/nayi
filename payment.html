@@ -4,39 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UPI Payment</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 50px;
-      }
-      .btn {
-        background-color: #4caf50;
-        color: white;
-        padding: 15px 25px;
-        font-size: 16px;
-        margin: 20px;
-        border: none;
-        border-radius: 5px;
-        text-decoration: none;
-        display: inline-block;
-        cursor: pointer;
-      }
-    </style>
   </head>
   <body>
-    <h1>UPI Payment</h1>
-    <p>
-      Click the button below to proceed with UPI payment. This will open your bank's portal or UPI app.
-    </p>
-    <!-- UPI Payment Link -->
-    <a
-      href="upi://pay?pa=merchantid@upi&pn=Merchant%20Name&tr=TXN123456789&am=100.00&cu=INR&tn=Payment%20for%20Order"
-      class="btn"
-      >Pay with UPI</a
-    >
-    <p>
-      If the link doesn't open automatically, please copy the UPI details and open your bank's app manually.
-    </p>
+    <h2>Complete Your Payment</h2>
+    <p>Total Amount: <span id="total-amount">₹0.00</span></p>
+
+    <a id="upi-payment-link" href="#">
+      <button>Pay Now via UPI</button>
+    </a>
+
+    <script>
+      // Load cart from localStorage
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      if (cart.length === 0) {
+        window.location.href = "/";
+      } else {
+        // Calculate total cost
+        let totalAmount = cart.reduce(
+          (sum, item) => sum + item.price * (item.quantity || 1),
+          0
+        );
+        document.getElementById(
+          "total-amount"
+        ).textContent = `₹${totalAmount.toFixed(2)}`;
+
+        // Generate UPI Payment Link
+        const upiID = "paytmqr66kldw@ptys"; // Your UPI ID
+        const txnID = "FMPIB" + Math.floor(Math.random() * 10000000000); // Random TXN ID
+        const upiLink = `upi://pay?pa=${upiID}&pn=Merchant%20Name&tr=${txnID}&am=${totalAmount.toFixed(
+          2
+        )}&cu=INR&tn=Payment%20for%20Order`;
+
+        // Set UPI link in button
+        document.getElementById("upi-payment-link").href = upiLink;
+      }
+    </script>
   </body>
 </html>
