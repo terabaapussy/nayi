@@ -1027,6 +1027,31 @@ header nav ul li a::before {
     padding: 1vh 1vw;
     margin-bottom: -8vh;
     outline: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none !important; /* Removes focus outline */
+    -webkit-tap-highlight-color: transparent; /* Removes blue highlight on mobile */
+  }
+
+  header #navbar-toggle:focus {
+    outline: none;
+    box-shadow: none; /* Removes any focus shadow */
+  }
+
+  header #navbar-toggle:active {
+    transform: scale(1.1); /* Slightly enlarges the button */
+    animation: bounce 0.3s ease;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   header #bars {
@@ -1100,11 +1125,11 @@ header nav ul li a::before {
   /* Show Navbar When Active */
   #navbar.active {
     display: flex;
-    animation: slideDown 0.5s ease-out forwards;
+    animation: slideDown 0.2s ease-out forwards;
   }
 
   #navbar.hidden {
-    animation: slideUp 0.5s ease-out forwards;
+    animation: slideUp 0.2s ease-out forwards;
   }
 }
 
