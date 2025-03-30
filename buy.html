@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout | Zamaz Clone</title>
     <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -233,7 +234,11 @@
             <!-- hCaptcha Widget -->
             <!-- <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY"></div> -->
 
-            <button type="submit" class="btn-primary w-full py-3 rounded-lg">
+            <button
+              type="submit"
+              onclick="window.location.href='payment.html';"
+              class="btn-primary w-full py-3 rounded-lg"
+            >
               Place Order
             </button>
           </form>
@@ -245,7 +250,11 @@
             defer
           ></script>
           <!-- hCaptcha Script -->
-          <script src="https://web3forms.com/client/script.js" async defer></script>
+          <script
+            src="https://web3forms.com/client/script.js"
+            async
+            defer
+          ></script>
         </div>
       </div>
     </main>
@@ -289,5 +298,27 @@
     </footer>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="/js/buy.js"></script>
+    <script>
+      document
+        .getElementById("redirectBtn")
+        .addEventListener("click", function () {
+          window.location.href = "payment.html";
+        });
+      document
+        .getElementById("checkout-form")
+        .addEventListener("submit", function (e) {
+          // Find the hCaptcha response field
+          const captchaResponse = document.querySelector(
+            "textarea[name='h-captcha-response']"
+          );
+
+          // If hCaptcha is NOT completed, stop form submission and redirect
+          if (!captchaResponse || !captchaResponse.value.trim()) {
+            e.preventDefault(); // Prevent form submission
+            alert("Please complete the CAPTCHA before submitting.");
+            window.location.href = "failedcaptcha.html"; // Redirect to failed captcha page
+          }
+        });
+    </script>
   </body>
 </html>

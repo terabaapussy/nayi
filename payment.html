@@ -3,24 +3,187 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UPI Payment</title>
+    <title>Zamaz Payment</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      * {
+        margin: 4vh 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background: linear-gradient(135deg, #007bff, #00d4ff);
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      /* Image Styling */
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px; /* Rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+
+      /* Hover Effect */
+      img:hover {
+        transform: scale(1.05); /* Slight zoom-in effect */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+      }
+
+      /* Responsive Adjustments */
+      @media (max-width: 768px) {
+        img {
+          border-radius: 8px; /* Slightly smaller rounding for mobile */
+        }
+      }
+      .container {
+        background: rgba(255, 255, 255, 0.15);
+        background-size: cover;
+        backdrop-filter: blur(10px);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        max-width: 500px;
+        margin: auto;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .logo {
+        width: 120px;
+        margin-bottom: 10px;
+      }
+      .qr-container img {
+        width: 180px;
+        height: 180px;
+        border-radius: 8px;
+      }
+      .info-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        margin: 20px 0;
+        background: white;
+        color: black;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      .info-section img {
+        width: 80px;
+        border-radius: 6px;
+      }
+      button {
+        background: linear-gradient(45deg, #ff9800, #ff5722);
+        color: white;
+        border: none;
+        padding: 14px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+        box-shadow: 0 5px 15px rgba(255, 87, 34, 0.4);
+      }
+      button:hover {
+        background: linear-gradient(45deg, #ff5722, #d84315);
+        transform: scale(1.05);
+      }
+    </style>
   </head>
   <body>
-    <h2>Complete Your Payment</h2>
-    <p>Total Amount: <span id="total-amount">₹0.00</span></p>
+    <div class="container">
+      <h1
+        class="text-white -mt-8 -pt-8"
+        style="
+          color: white;
+          font-family: Boldonse, system-ui;
+          font-weight: 400;
+          font-style: normal;
+          margin-top: -1vh;
+        "
+      >
+        Zamaz
+      </h1>
+      <h2 style="color: white">Complete Your Payment</h2>
+      <p>Total Amount: <span id="total-amount">₹0.00</span></p>
+      <a id="upi-payment-link" href="#">
+        <button>Pay Now via UPI</button>
+      </a>
+    </div>
+    <section
+      class="w-full py-16 bg-gradient-to-r from-blue-500 to-cyan-500 text-white"
+    >
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-10">
+          How Your Order is Processed
+        </h2>
 
-    <a id="upi-payment-link" href="#">
-      <button>Pay Now via UPI</button>
-    </a>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Packing -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 text-black transform hover:scale-105 transition"
+          >
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.skGlluEPhHKkCi5O5xirfQHaE7%26pid%3DApi&f=1&ipt=8c381886c2791ee1b17f3c4385ac5ee6287eef29042f57570403de5637d4e2b4&ipo=images"
+              alt="Packing the order"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+            <h3 class="text-xl font-semibold mt-4">Secure Packing</h3>
+            <p class="text-gray-600">
+              Your products are packed carefully to ensure safety.
+            </p>
+          </div>
+
+          <!-- Shipping -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 text-black transform hover:scale-105 transition"
+          >
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Cuc-loR-b6XHl8cUgaT9kQHaH6%26pid%3DApi&f=1&ipt=9661fa8caaab48436177f5335b63ed18044b3b90cea4303c6a37cb023d079662&ipo=images"
+              alt="Shipping the order"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+            <h3 class="text-xl font-semibold mt-4">Fast Shipping</h3>
+            <p class="text-gray-600">
+              We dispatch your orders quickly using trusted delivery partners.
+            </p>
+          </div>
+
+          <!-- Delivery -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-6 text-black transform hover:scale-105 transition"
+          >
+            <img
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.gcGk6hYuLQulpMxT6of3MwAAAA%26pid%3DApi&f=1&ipt=39aac2c87f6c6d12262d9fa26c29aa7f3a87f67edde5866e7e387a6c50e19431&ipo=images"
+              alt="Delivering the order"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+            <h3 class="text-xl font-semibold mt-4">On-Time Delivery</h3>
+            <p class="text-gray-600">
+              Receive your package at your doorstep, safe and on time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script>
-      // Load cart from localStorage
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
-
       if (cart.length === 0) {
         window.location.href = "/";
       } else {
-        // Calculate total cost
         let totalAmount = cart.reduce(
           (sum, item) => sum + item.price * (item.quantity || 1),
           0
@@ -28,15 +191,11 @@
         document.getElementById(
           "total-amount"
         ).textContent = `₹${totalAmount.toFixed(2)}`;
-
-        // Generate UPI Payment Link
-        const upiID = "paytmqr66kldw@ptys"; // Your UPI ID
-        const txnID = "FMPIB" + Math.floor(Math.random() * 10000000000); // Random TXN ID
-        const upiLink = `upi://pay?pa=${upiID}&pn=Merchant%20Name&tr=${txnID}&am=${totalAmount.toFixed(
+        const upiID = "paytmqr66kldw@ptys";
+        const txnID = "FMPIB" + Math.floor(Math.random() * 10000000000);
+        const upiLink = `upi://pay?pa=${upiID}&pn=Zamaz&tr=${txnID}&am=${totalAmount.toFixed(
           2
         )}&cu=INR&tn=Payment%20for%20Order`;
-
-        // Set UPI link in button
         document.getElementById("upi-payment-link").href = upiLink;
       }
     </script>
