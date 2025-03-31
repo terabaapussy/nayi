@@ -40,7 +40,7 @@ function showNotification(message) {
 
   container.appendChild(notification);
 
-  // Remove the notification after 4 seconds
+  // Remove the notification after 2 seconds
   setTimeout(() => {
     notification.remove();
   }, 2000);
@@ -69,6 +69,7 @@ function addToCart(event) {
 document.getElementById("Search2").addEventListener("input", function (event) {
   const query = event.target.value.toLowerCase();
   
+  
   // Filter products only when they are loaded
   const filteredProducts = products.filter((product) => {
     return (
@@ -76,7 +77,7 @@ document.getElementById("Search2").addEventListener("input", function (event) {
       product.description.toLowerCase().includes(query)
     );
   });
-
+  
   // Re-render products based on search results
   renderProducts(filteredProducts);
 });
@@ -84,15 +85,16 @@ document.getElementById("Search2").addEventListener("input", function (event) {
 // Function to render products
 function renderProducts(products) {
   const productsContainer = document.getElementById("products-container");
-
+  
   if (products.length === 0) {
     productsContainer.innerHTML = `<div class="text-center py-10">No products found.</div>`;
     return;
   }
-
+  
+  
   productsContainer.innerHTML = products
-    .map(
-      (product) => `
+  .map(
+    (product) => `
         <div class="product-card bg-white rounded-lg overflow-hidden shadow-sm">
             <div class="p-4">
                 <img src="${product.image}" alt="${product.name}" class="product-image w-full">
@@ -116,6 +118,7 @@ function renderProducts(products) {
   document.querySelectorAll(".add-to-cart").forEach((button) => {
     button.addEventListener("click", addToCart);
   });
+  
 }
 
 // Navbar and Search setup
@@ -149,10 +152,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("Search2");
   const searchButton = document.getElementById("searchButton");
 
-  if (!searchInput || !searchButton) {
-    console.error("Search elements not found");
-    return;
-  }
+  // if (!searchInput || !searchButton) {
+  //   console.error("Search elements not found");
+  //   return;
+  // }
 
   searchButton.addEventListener("click", function () {
     const query = searchInput.value.trim();

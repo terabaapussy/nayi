@@ -11,6 +11,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
 }
 .container {
   width: 90%;

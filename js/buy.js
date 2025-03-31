@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
   if (cart.length === 0) {
-    window.location.href = "/";
+    window.location.href = "";
     return;
   }
 

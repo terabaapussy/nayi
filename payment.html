@@ -102,7 +102,7 @@
       }
     </style>
   </head>
-  <body style="background: blueviolet;">
+  <body style="background: blueviolet">
     <div class="container">
       <h1
         class="text-white -mt-8 -pt-8"
@@ -191,11 +191,10 @@
         document.getElementById(
           "total-amount"
         ).textContent = `₹${totalAmount.toFixed(2)}`;
-        const upiID = "paytmqr66kldw@ptys";
-        const txnID = "FMPIB" + Math.floor(Math.random() * 10000000000);
-        const upiLink = `upi://pay?pa=${upiID}&pn=Zamaz&tr=${txnID}&am=${totalAmount.toFixed(
-          2
-        )}&cu=INR&tn=Payment%20for%20Order`;
+        const upiID = "9711716970@fam";
+        const txnID = "TXN" + Math.floor(Math.random() * 10000000000);
+        const upiLink = `upi://pay?pa=${upiID}&pn=Zamaz&tr=${txnID}&am=${totalAmount.toFixed(2)}&cu=INR&tn=Payment%20for%20Order%20of%20Zamaz`;
+        // const upiLink = `https://getupilink.com/upi/${upiID}?am=${totalAmount.toFixed(2)}`;
         document.getElementById("upi-payment-link").href = upiLink;
       }
     </script>
